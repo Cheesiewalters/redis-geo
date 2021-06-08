@@ -6,7 +6,7 @@ services:
 matrix:
   include:
     - os: linux
-      dist: xenial
+      dist: trusty
       sudo: required
     - dotnet: 2.1.502
       mono: none
